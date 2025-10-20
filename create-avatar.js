@@ -162,7 +162,7 @@ document.getElementById('shareButton').addEventListener('click', async function 
 
     try {
         const uploadedImageUrl = await uploadImage(imageUrl);
-        const title = "Wow! How cool is this! Check out the Mellow Meme Maker https://www.furiesmellow0x69.com/mememaker";
+        const title = "Wow! How cool is this! Check out the Mellow Meme Maker https://www.mellowmanofmatt.wtf/mememaker";
         const description = "Link to the meme:";
 
         const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(title + ' - ' + description)}&url=${encodeURIComponent(uploadedImageUrl)}`;
@@ -200,7 +200,7 @@ document.getElementById('shareTelegramButton').addEventListener('click', async f
 
     try {
         const uploadedImageUrl = await uploadImage(imageUrl);
-        const title = "Wow! How cool is this! Check out the Mellow Meme Maker https://www.furiesmellow0x69.com/mememaker";
+        const title = "Wow! How cool is this! Check out the Mellow Meme Maker https://www.mellowmanofmatt.wtf/mememaker";
         const description = "Link to the meme:";
 
         const telegramUrl = `https://t.me/share/url?text=${encodeURIComponent(title + ' - ' + description)}&url=${encodeURIComponent(uploadedImageUrl)}`;
